@@ -9,25 +9,9 @@ Plugins are developed independently and are **not maintained as part of the MimI
 
 ## 🧰 Registered Plugins
 
-| 🏷️ Name | 🔗 Repository | 🧠 Description | 👤 Maintainer | ✅ Compatible MimIR | 🗒️ Notes |
-| ------- | ------------- | -------------- | ------------- | ------------------- | -------- |
-|         |               |                |               |                     |          |
-
----
-
-## 🔗 Plugin Compatibility
-
-MimIR provides a plugin interface that is versioned using the MimIR release version.
-
-Plugins declare which MimIR version they are compatible with (typically `major.minor`).
-MimIR may refuse to load plugins built for incompatible versions.
-
-### ⚠️ Important Notes
-
-- 🚧 MimIR `master` is under active development and may introduce breaking changes at any time.
-- 🏷️ Plugins are expected to target **tagged MimIR releases** (e.g. `0.1`, `0.2`, ...).
-- ❌ Compatibility with `master` is **not guaranteed**.
-- 📝 This registry records the **last known compatible MimIR version** for each plugin.
+| 🏷️ Name | 🔗 Repository | 🧠 Description | 👤 Maintainer | ✅ Version | 🗒️ Notes |
+| ------- | ------------- | -------------- | ------------- | ---------- | -------- |
+|         |               |                |               |            |          |
 
 ---
 
@@ -39,8 +23,24 @@ Each plugin entry includes:
 - 🔗 **Repository**: Source URL (git)
 - 🧠 **Description**: Short explanation of what the plugin does
 - 👤 **Maintainer**: Author or team
-- ✅ **Compatible MimIR Version**: Last known working MimIR version (`major.minor`)
+- ✅ **Version**: Last known working MimIR version (`major.minor`)
 - 🗒️ **Notes**: Optional remarks (experimental, deprecated, etc.)
+
+---
+
+## 🔗 Plugin Compatibility
+
+MimIR provides a plugin interface that is versioned using the MimIR release version.
+
+Plugins declare which MimIR version they are compatible with (`major.minor`).
+MimIR may refuse to load plugins built for incompatible versions.
+
+### ⚠️ Important Notes
+
+- 🚧 MimIR `master` is under active development and may introduce breaking changes at any time.
+- 🏷️ Plugins are expected to target **tagged MimIR releases** (e.g. `0.1`, `0.2`, ...).
+- ❌ Compatibility with `master` is **not guaranteed**.
+- 📝 This registry records the **last known compatible MimIR version** for each plugin.
 
 ---
 
