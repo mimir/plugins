@@ -7,6 +7,14 @@ Plugins are developed independently and are **not maintained as part of the MimI
 
 ---
 
+## 🧰 Registered Plugins
+
+| 🏷️ Name | 🔗 Repository | 🧠 Description | 👤 Maintainer | ✅ Compatible MimIR | 🗒️ Notes |
+| ------- | ------------- | -------------- | ------------- | ------------------- | -------- |
+|         |               |                |               |                     |          |
+
+---
+
 ## 🔗 Plugin Compatibility
 
 MimIR provides a plugin interface that is versioned using the MimIR release version.
@@ -33,14 +41,6 @@ Each plugin entry includes:
 - 👤 **Maintainer**: Author or team
 - ✅ **Compatible MimIR Version**: Last known working MimIR version (`major.minor`)
 - 🗒️ **Notes**: Optional remarks (experimental, deprecated, etc.)
-
----
-
-## 🧰 Registered Plugins
-
-| 🏷️ Name | 🔗 Repository | 🧠 Description | 👤 Maintainer | ✅ Compatible MimIR | 🗒️ Notes |
-| ------- | ------------- | -------------- | ------------- | ------------------- | -------- |
-|         |               |                |               |                     |          |
 
 ---
 
