@@ -37,10 +37,10 @@ MimIR may refuse to load plugins built for incompatible versions.
 
 ### ⚠️ Important Notes
 
-- 🚧 MimIR `master` is under active development and may introduce breaking changes at any time.
-- 🏷️ Plugins are expected to target **tagged MimIR releases** (e.g. `0.1`, `0.2`, ...).
-- ❌ Compatibility with `master` is **not guaranteed**.
-- 📝 This registry records the **last known compatible MimIR version** for each plugin.
+- MimIR `master` is under active development and may introduce breaking changes at any time.
+- Plugins are expected to target **tagged MimIR releases** (e.g. `0.1`, `0.2`, ...).
+- Compatibility with `master` is **not guaranteed**.
+- This registry records the **last known compatible MimIR version** for each plugin.
 
 ---
 
@@ -50,10 +50,10 @@ Want your plugin listed here? Great.
 
 To register a plugin:
 
-1. 🍴 Fork this repository
-2. ➕ Add your plugin entry to the table above
-3. 🔌 Ensure your plugin exports the required entrypoint (`mim_get_plugin()`)
-4. 📬 Open a pull request
+1. Fork this repository
+2. Add your plugin entry to the table above
+3. Ensure your plugin exports the required entrypoint (`mim_get_plugin()`)
+4. Open a pull request
 
 Plugins should be buildable against at least one released MimIR version.
 
@@ -61,9 +61,9 @@ Plugins should be buildable against at least one released MimIR version.
 
 ## 🏛️ Compatibility Policy
 
-- 🏷️ MimIR releases (`0.1`, `0.2`, ...) define the plugin API compatibility boundary.
-- 🔒 Plugins should target released versions, not `master`.
-- 💥 When MimIR introduces breaking plugin API changes, the MimIR version is bumped.
+- MimIR releases (`0.1`, `0.2`, ...) define the plugin API compatibility boundary.
+- Plugins should target released versions, not `master`.
+- When MimIR introduces breaking plugin API changes, the MimIR version is bumped.
 
 This registry does **not** guarantee that plugins remain compatible with future MimIR releases.
 
@@ -71,6 +71,6 @@ This registry does **not** guarantee that plugins remain compatible with future 
 
 ## 📌 Notes
 
-- 🚫 This registry does not build, distribute, or validate plugins.
-- 📖 It is purely informational.
-- ☠️ Use plugins at your own risk.
+- This registry does not build, distribute, or validate plugins.
+- It is purely informational.
+- Use plugins at your own risk.
