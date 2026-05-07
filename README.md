@@ -1,9 +1,12 @@
 # 🧩 MimIR Plugin Registry
 
+
 Welcome to the **MimIR Plugin Registry**!
 This repository lists third-party plugins for the **MimIR compiler infrastructure**.
 
 Plugins are developed independently and are **not maintained as part of the MimIR core repository**.
+
+[TOC]
 
 ---
 
