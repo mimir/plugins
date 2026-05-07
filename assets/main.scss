@@ -1,0 +1,50 @@
+---
+---
+
+@import "minima";
+
+.wrapper,
+.page-content .wrapper {
+  max-width: min(1280px, calc(100vw - 3rem));
+}
+
+.readme-content {
+  overflow-wrap: anywhere;
+}
+
+.readme-content h1:first-child {
+  margin-top: 0;
+}
+
+.readme-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.readme-content th,
+.readme-content td {
+  min-width: 8rem;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.readme-content th:nth-child(1),
+.readme-content td:nth-child(1),
+.readme-content th:nth-child(5),
+.readme-content td:nth-child(5) {
+  min-width: 6rem;
+}
+
+.readme-content th:nth-child(2),
+.readme-content td:nth-child(2),
+.readme-content th:nth-child(4),
+.readme-content td:nth-child(4) {
+  min-width: 14rem;
+}
+
+.readme-content th:nth-child(3),
+.readme-content td:nth-child(3) {
+  min-width: 30rem;
+}
