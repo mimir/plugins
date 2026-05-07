@@ -1,6 +1,5 @@
 # 🧩 MimIR Plugin Registry
 
-
 Welcome to the **MimIR Plugin Registry**!
 This repository lists third-party plugins for the **MimIR compiler infrastructure**.
 
@@ -10,9 +9,9 @@ Plugins are developed independently and are **not maintained as part of the MimI
 
 ## 🧰 Registered Plugins
 
-| 🏷️ Name | 🔗 Repository                      | 🧠 Description                                                                                                                                                                                                                                                                                           | 👤 Maintainer                                       | ✅ Version | 🗒️ Notes |
-| ------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------- | -------- |
-| `eqsat` | <https://github.com/ashiven/eqsat> | This plugin integrates the [egg](https://github.com/egraphs-good/egg) and [slotted-egraphs](https://github.com/memoryleak47/slotted-egraphs) libraries into MimIR to enable optimizing programs through the process of [equality saturation](https://en.wikipedia.org/wiki/E-graph#Equality_saturation). | Jannik Novak [\@ashiven](https://github.com/Ashiven) | `0.1`      |          |
+| 🏷️ Name                                     | 🧠 Description                                                                                                                                                                                                                                                                                           | 👤 Maintainer                              | ✅ Version | 🗒️ Notes |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- | -------- |
+| [`eqsat`](https://github.com/ashiven/eqsat) | This plugin integrates the [egg](https://github.com/egraphs-good/egg) and [slotted-egraphs](https://github.com/memoryleak47/slotted-egraphs) libraries into MimIR to enable optimizing programs through the process of [equality saturation](https://en.wikipedia.org/wiki/E-graph#Equality_saturation). | [Jannik Novak](https://github.com/Ashiven) | `0.1`      |          |
 
 ---
 
@@ -20,8 +19,7 @@ Plugins are developed independently and are **not maintained as part of the MimI
 
 Each plugin entry includes:
 
-- 🏷️ **Name**: Plugin identifier
-- 🔗 **Repository**: Source URL (git)
+- 🏷️ **Name**: Plugin name - hyperlinked to project homepage
 - 🧠 **Description**: Short explanation of what the plugin does
 - 👤 **Maintainer**: Author or team
 - ✅ **Version**: Last known working MimIR version (`major.minor`)
