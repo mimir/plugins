@@ -1,0 +1,62 @@
+.github-corner svg {
+    fill: var(--primary-light-color);
+    color: var(--page-background-color);
+    width: 72px;
+    height: 72px;
+}
+
+#projectlogo img {
+    height: 56px;
+}
+
+#projectname {
+    padding-right: 4rem;
+}
+
+.contents {
+    overflow-wrap: anywhere;
+}
+
+.contents table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.contents th,
+.contents td {
+    min-width: 8rem;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.contents th:nth-child(1),
+.contents td:nth-child(1),
+.contents th:nth-child(5),
+.contents td:nth-child(5) {
+    min-width: 6rem;
+}
+
+.contents th:nth-child(2),
+.contents td:nth-child(2),
+.contents th:nth-child(4),
+.contents td:nth-child(4) {
+    min-width: 14rem;
+}
+
+.contents th:nth-child(3),
+.contents td:nth-child(3) {
+    min-width: 30rem;
+}
+
+@media screen and (max-width: 767px) {
+    .github-corner svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    #projectlogo img {
+        height: 42px;
+    }
+}

@@ -1,6 +1,0 @@
-title: MimIR Plugin Registry
-description: Third-party plugins for the MimIR compiler infrastructure
-theme: jekyll-theme-midnight
-markdown: kramdown
-kramdown:
-  input: GFM

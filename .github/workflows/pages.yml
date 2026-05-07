@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: Deploy plugin docs
 
 on:
   push:
@@ -8,39 +8,21 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Build site
-        uses: actions/jekyll-build-pages@v1
+      - name: Install Doxygen
+        run: sudo apt-get update && sudo apt-get install -y doxygen
+      - name: Checkout docs repository
+        uses: actions/checkout@v4
         with:
-          source: ./
-          destination: ./_site
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          repository: mimir/mimir.github.io
+          ref: master
+          path: site
+          ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      - name: Build and deploy
+        run: make deploy SITE_DIR=site
