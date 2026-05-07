@@ -1,5 +1,5 @@
 PROJECT_NAME           = MimIR Plugin Registry
-PROJECT_BRIEF          = Third-party plugins for the MimIR compiler infrastructure
+PROJECT_BRIEF          = Third-party plugins for MimIR
 OUTPUT_DIRECTORY       = build
 ALLOW_UNICODE_NAMES    = YES
 MARKDOWN_SUPPORT       = YES
