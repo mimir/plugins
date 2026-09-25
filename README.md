@@ -11,7 +11,9 @@ Plugins are developed independently and are **not maintained as part of the MimI
 
 | 🏷️ Name                                     | 🧠 Description                                                                                                                                                                                                                                                                                           | 👤 Maintainer                              | ✅ Version | 🗒️ Notes |
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- | -------- |
-| [`eqsat`](https://github.com/ashiven/eqsat) | This plugin integrates the [egg](https://github.com/egraphs-good/egg) and [slotted-egraphs](https://github.com/memoryleak47/slotted-egraphs) libraries into MimIR to enable optimizing programs through the process of [equality saturation](https://en.wikipedia.org/wiki/E-graph#Equality_saturation). | [Jannik Novak](https://github.com/Ashiven) | `0.1`      |          |
+| [`eqsat`](https://github.com/ashiven/eqsat) | This plugin integrates the [egg](https://github.com/egraphs-good/egg) and [slotted-egraphs](https://github.com/memoryleak47/slotted-egraphs) libraries into MimIR to enable optimizing programs through the process of [equality saturation](https://en.wikipedia.org/wiki/E-graph#Equality_saturation). | [Jannik Novak](https://github.com/Ashiven) | `0.3`      |          |
+| [`sexpr`](https://github.com/ashiven/sexpr) | This plugin provides the ability to emit MimIR programs in the symbolic expression format | [Jannik Novak](https://github.com/Ashiven) | `0.3`      |          |
+
 
 ---
 
