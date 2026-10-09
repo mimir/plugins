@@ -13,6 +13,7 @@ Plugins are developed independently and are **not maintained as part of the MimI
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- | -------- |
 | [`eqsat`](https://github.com/ashiven/eqsat) | This plugin integrates the [egg](https://github.com/egraphs-good/egg) and [slotted-egraphs](https://github.com/memoryleak47/slotted-egraphs) libraries into MimIR to enable optimizing programs through the process of [equality saturation](https://en.wikipedia.org/wiki/E-graph#Equality_saturation). | [Jannik Novak](https://github.com/Ashiven) | `0.3`      |          |
 | [`sexpr`](https://github.com/ashiven/sexpr) | This plugin provides the ability to emit MimIR programs in the symbolic expression format | [Jannik Novak](https://github.com/Ashiven) | `0.3`      |          |
+| [`mlir`](https://github.com/HarithF/mim_mlir) | This plugin emits [MLIR](https://mlir.llvm.org/) from MimIR programs, lowering tensor operations and loops into the `func`, `arith`, `math`, `scf`, `linalg`, and `tensor` dialects | [HarithF](https://github.com/HarithF) | `0.4`      |  |
 
 
 ---
